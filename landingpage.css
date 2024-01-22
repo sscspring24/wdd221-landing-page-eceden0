@@ -1,0 +1,74 @@
+body {
+    margin: auto;
+}
+
+h1 {
+    color: #fcc8c8;
+    background-color: #4b6687;
+    text-align: center;
+    margin: 0;
+    font-size: 44px;
+    padding: 15px;
+}
+
+nav {
+    font-size: 20px;
+    background-color: #6f8db1;
+    padding: 8px;
+}
+
+nav a:link {
+    color: #dedede;
+}
+
+nav a:visited {
+    color: #69466f;
+}
+
+nav a:hover {
+    color: #000000;
+}
+
+ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding: 8px;
+}
+
+p {
+    color: #fcc8c8;
+    font-size: 24px;
+    background-color: #fff;
+    position: absolute;
+    margin-left: 30%;
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+#bunnyhero {
+    background-image: url(bunny.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+
+}
+
+footer {
+    background-color: #4b6687;
+    color: #d7d7d7;
+    font-size: 15px;
+    text-align: center;
+    position: fixed;
+    font-style: italic;
+    margin: 0;
+    bottom: 0;
+    width: 100%;
+}
